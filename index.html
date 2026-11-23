@@ -1,61 +1,183 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <title>Portal do estudante</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Portal do Estudante</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
+
     <header>
-        <img src="assets/img/logo.sesi.png" alt="Logo sesi senai" id="logo-menu">
+
+        <img src="assets/img/logo.sesi.png" alt="Logo SESI SENAI">
+
+        <h2>PORTAL DO ESTUDANTE</h2>
+
         <nav>
-            <p>Início</p>
-            <span>|</span>
-            <p>Cadastro</p>
-            <span>|</span>
-            <p>Login</p>
-            <span>|</span>
-            <p>Figures</p>
+            <a href="index.html">Início</a>
+            <a href="disciplinas.html">Disciplinas</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="carreiras.html">Carreiras</a>
+            <a href="estagio.html">Estágios</a>
         </nav>
+
     </header>
 
     <main>
-        <section id="inicio">
-            <article id="texto">
-                <h1>portal<br><strong>estudante</strong></h1>
-                <p></p>
-            </article>
+
+        <section class="inicio">
+
+            <p class="destaque">ENSINO MÉDIO SESI/SENAI</p>
+
+            <h1>O que você quer<br>descobrir hoje?</h1>
+
+            <h2>Conhecimento para transformar o seu futuro.</h2>
+
+            <p>
+                Explore novos assuntos, aprenda sobre o mundo
+                e descubra diferentes formas de enxergar a sociedade.
+            </p>
+
+            <a href="#materias" class="botao">Explorar matérias →</a>
+
         </section>
 
-<section class="container-cards">
-  <div class="card">
-    <div class="barra-topo"></div>
-    <h3>Notas e Faltas</h3>
-    <p>Teste</p>
-    <a href="#" class="btn-card">Acessar</a>
-  </div>
+        <section class="materias" id="materias">
 
-  <div class="card">
-    <div class="barra-topo"></div>
-    <h3>Calendário Escolar</h3>
-    <p>teste</p>
-    <a href="#" class="btn-card">Acessar</a>
-  </div>
+            <p class="destaque">CONHECIMENTO AO SEU ALCANCE</p>
 
-  <div class="card">
-    <div class="barra-topo"></div>
-    <h3>Material de Apoio</h3>
-    <p>teste</p>
-    <a href="#" class="btn-card">Acessar</a>
-  </div>
-</section>
+            <h2>Escolha uma matéria para começar</h2>
+
+            <p class="descricao">
+                Explore nossos conteúdos de Geografia e Sociologia.
+            </p>
+
+            <article class="card geografia">
+
+                <p class="numero">01 | DISCIPLINA</p>
+
+                <h3>GEOGRAFIA</h3>
+
+                <p>
+                    Conheça os países, continentes, paisagens,
+                    fenômenos naturais e transformações do planeta.
+                </p>
+
+                <p class="assuntos">
+                    Espaço geográfico • Meio ambiente • Globalização
+                </p>
+
+                <a href="geografia.html" class="botao">Entrar →</a>
+
+            </article>
+
+            <article class="card sociologia">
+
+                <p class="numero">02 | DISCIPLINA</p>
+
+                <h3>SOCIOLOGIA</h3>
+
+                <p>
+                    Entenda a sociedade, a cultura, as relações humanas
+                    e os acontecimentos do nosso cotidiano.
+                </p>
+
+                <p class="assuntos">
+                    Cultura • Sociedade • Cidadania
+                </p>
+
+                <a href="sociologia.html" class="botao">Entrar →</a>
+
+            </article>
+
+        </section>
+
+        <section class="conteudos">
+
+            <p class="destaque">EXPLORE MAIS</p>
+
+            <h2>Conhecimento além da sala de aula</h2>
+
+            <article class="conteudo">
+
+                <h3>ATUALIDADES</h3>
+
+                <p>
+                    Acompanhe assuntos importantes que acontecem
+                    no Brasil e no mundo.
+                </p>
+
+                <a href="noticias/">Conhecer →</a>
+
+            </article>
+
+            <article class="conteudo">
+
+                <h3>MATERIAIS DE ESTUDO</h3>
+
+                <p>
+                    Encontre conteúdos para complementar
+                    suas aulas e revisar matérias.
+                </p>
+
+                <a href="#materias">Explorar →</a>
+
+            </article>
+
+            <article class="conteudo">
+
+                <h3>CONHECIMENTO</h3>
+
+                <p>
+                    Descubra novas informações e amplie
+                    sua visão sobre o mundo.
+                </p>
+
+                <a href="#grupo">Saiba mais →</a>
+
+            </article>
+
+        </section>
+
+        <section class="grupo" id="grupo">
+
+            <p class="destaque">SOBRE O PROJETO</p>
+
+            <h2>Conheça nosso grupo</h2>
+
+            <p>
+                Somos estudantes do Ensino Médio SESI/SENAI
+                e desenvolvemos este portal com o objetivo de
+                aproximar os alunos do conhecimento.
+            </p>
+
+            <p>
+                Nosso projeto reúne informações de Geografia
+                e Sociologia em um ambiente simples, organizado
+                e acessível.
+            </p>
+
+            <a href="sobre.html" class="botao">Conheça nossa equipe →</a>
+
+        </section>
+
     </main>
-<footer>
-    <p>telefone: (19)92745-0375</p>
-    <p>endereço: rua belterra 291 - Centro Campinas-Sp</p>
-    <p>Site feito para o ambiente escolar</p>
-    <p>Site licenciado pelos alunos</p>
-</footer>
+
+    <footer>
+
+        <h2>PORTAL DO ESTUDANTE</h2>
+
+        <p>SESI/SENAI - Ensino Médio</p>
+
+        <p>Conhecimento, educação e novas oportunidades.</p>
+
+        <p>Projeto desenvolvido por alunos.</p>
+
+        <p class="final">© 2026 - Todos os direitos reservados.</p>
+
+    </footer>
+
 </body>
 </html>
